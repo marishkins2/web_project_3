@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" lang="en">
     <title>From Portland to Portland</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -13,8 +13,8 @@
 
             <img src="./images/logo.svg " alt="header logo " class="logo">
             <ul class="header__tag-links">
-                <li><a href="#" class="header__tag-link header__tag-link-unerline">En</a></li>
-                <li><a href="#" class="header__tag-link">Es</a></li>
+                <li><a href="#" class="link header__tag-link header__tag-link-unerline">En</a></li>
+                <li><a href="#" class="link header__tag-link">Es</a></li>
             </ul>
         </header>
         <div class="lead">
@@ -65,7 +65,7 @@
                 <h2 class="place__title">Maine</h2> <img src="./images/house on a lake.png" alt="house on a lake" class="place__image">
                 <div class="place__website">
                     <p class="place__website_url-heading">URL</p>
-                    <a href="global.llbean.com">
+                    <a href="global.llbean.com" class="link">
                         <p class="place__website_link">global.llbean.com</p>
                     </a>
                 </div>
@@ -79,7 +79,7 @@
                 <h2 class="place__title">New Hampshire</h2> <img src="./images/new hampshire lake.png" alt="new hampshire river" class="place__image">
                 <div class="place__website">
                     <p class="place__website_url-heading">URL</p>
-                    <a href="timberland.com" class="place__website">
+                    <a href="timberland.com" class="place__website link">
                         <p class="place__website_link">timberland.com</p>
                     </a>
                 </div>
@@ -94,7 +94,7 @@
                 <h2 class="place__title">New York</h2> <img src="./images/new york street.png" alt="new york street" class="place__image">
                 <div class="place__website">
                     <p class="place__website_url-heading">URL</p>
-                    <a href="ge.com" class="place__website">
+                    <a href="ge.com" class="place__website link">
                         <p class="place__website_link">ge.com</p>
                     </a>
                 </div>
@@ -110,7 +110,7 @@
                 <h2 class="place__title">Erie, PA</h2> <img src="./images/waterfalls.png" alt="waterfalls" class="place__image">
                 <div class="place__website">
                     <p class="place__website_url-heading">URL</p>
-                    <a href="www.fws.gov" class="place__website">
+                    <a href="www.fws.gov" class="place__website link">
                         <p class="place__website_link">www.fws.gov</p>
                     </a>
                 </div>
@@ -134,22 +134,25 @@
                 <p class="place__paragraph place__paragraph_2">The cost of a daily ticket: about $100.</p>
 
             </div>
-            </div>
+
         </section>
         <section class="cover">
-            <a href="https://www.nps.gov/nr/travel/route66/maps66.html" class="cover__link">
-                <img class="cover__image" alt="route 66" src="./images/route66backpng.png">
+            <a class="cover__link link" href="https://www.nps.gov/nr/travel/route66/maps66.html">
                 <div class="cover__overlay"></div>
                 <h2 class="cover__title">Historic Route 66</h2>
                 <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
             </a>
         </section>
-        <footer class="footer"></footer>
-        <a href="#" class="footer__link">Maps</a>
-        <a href="#" class="footer__link">Weather</a>
-        <a href="#" class="footer__link">Calendar</a>
-        <p class="footer__copyright"> &copy;2020. Marina</p>
+
     </main>
+    <footer class="footer">
+        <ul class="footer__links">
+            <li> <a href="#" class="footer__link link">Maps</a></li>
+            <li><a href="#" class="footer__link link">Weather</a></li>
+            <li><a href="#" class="footer__link link">Calendar</a></li>
+        </ul>
+        <p class="footer__copyright"> &copy;2020. Marina</p>
+    </footer>
 </body>
 
 </html>

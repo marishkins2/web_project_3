@@ -1,15 +1,17 @@
     .root {
-        margin: 0 auto;
+        max-width: 1280px;
         background-color: #2A2C2F;
-        font-family: 'Inter', Arial, sans-serif;
+        margin: 0 auto;
+        font-family: "Inter", "Arial", sans-serif;
+        font-weight: normal;
+        font-style: normal;
         color: white;
-        min-width: 1280px;
     }
     
     .content {
         background-color: #2A2C2F;
         font-family: 'Inter', Arial, sans-serif;
-        margin: 0 auto;
+        margin: auto;
         padding: 0;
     }
     
@@ -239,30 +241,33 @@
     }
     
     .cover {
-        max-width: 1184px;
-        min-height: 740px;
-        margin-top: 92px;
-        margin-left: 48px;
-        margin-right: 48px;
+        margin: 92px auto 92px;
+        color: #FFF;
     }
     
     .cover__link {
         position: relative;
-        display: flex;
-    }
-    
-    .cover__image {
         max-width: 1184px;
         min-height: 740px;
-        position: relative;
+        background-image: url("./images/route66backpng.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none;
+        color: #FFF;
+        z-index: 0;
+        margin: 0 auto;
     }
     
     .cover__overlay {
         width: 100%;
         height: 100%;
         background: #2A2C2F;
-        opacity: 0.3;
-        position: relative;
+        opacity: .3;
+        position: absolute;
         top: 0;
         left: 0;
         z-index: 1;
@@ -274,47 +279,63 @@
     }
     
     .cover__title {
-        min-width: 656px;
+        max-width: 656px;
+        min-height: 76px;
         font-weight: 900;
         font-size: 72px;
         color: #fffdfd;
         line-height: 76px;
+        text-align: center;
         margin: 0 0 32px 0;
         z-index: 2;
-        position: absolute;
-        left: 264px;
-        top: 283px;
-        bottom: 381px;
+    }
+    
+    .cover__item:hover:before {
+        opacity: .8;
     }
     
     .cover__subtitle {
         max-width: 320px;
+        min-height: 66px;
         font-size: 18px;
         line-height: 22px;
         color: #ffffff;
+        width: 320px;
         text-align: center;
         margin: 0;
         z-index: 2;
-        position: absolute;
-        left: 432px;
-        top: 391px;
-        bottom: 283px;
     }
     
     .footer {
-        margin-top: 92px;
-        width: 1184px;
-        height: 18px;
+        margin: 0 auto 24px;
+        max-width: 1184px;
         display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer__links {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        margin: 0;
     }
     
     .footer__link {
         text-decoration: none;
         color: white;
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: 18px;
     }
     
     .footer__copyright {
-        flex-direction: column-ed;
+        margin: 0;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    a:hover {
+        opacity: 0.5;
     }
     
     @media screen and (max-width: 320px) {
