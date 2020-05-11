@@ -1,0 +1,8 @@
+@import url("./__link/__link.css");
+@import url("./__overlay/__overlay.css");
+@import url("./__subtitle/__subtitle.css");
+@import url("./__title/__title.css");
+.cover {
+    margin: 92px auto 92px;
+    color: #FFF;
+}

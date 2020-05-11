@@ -1,0 +1,16 @@
+.cover__link {
+    position: relative;
+    max-width: 1184px;
+    min-height: 740px;
+    background-image: url("../../../images/route66backpng.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #FFF;
+    z-index: 0;
+    margin: 0 auto;
+}

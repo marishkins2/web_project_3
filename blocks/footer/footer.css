@@ -1,0 +1,9 @@
+@import url("./__copyright/__copyright.css");
+@import url("./__link/__link.css");
+@import url("./__links/__links.css");
+.footer {
+    margin: 0 auto 24px;
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+}
