@@ -1,7 +1,4 @@
-@import url("./_link/__link.css");
-@import url("./_url-heading/");
 .place__website {
     max-width: 456px;
-    height: 46px;
     grid-area: link;
 }

@@ -2,7 +2,6 @@
 @import url("./__tag-links/__tag-links.css");
 .header {
     max-width: 984px;
-    height: 44px;
     margin: 34px 148px 58px 148px;
     display: flex;
     justify-content: space-between;

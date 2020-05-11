@@ -2,20 +2,19 @@
 Project link: https://marishkins2.github.io/web_project_3/
 
 ### Overview
-* Intro
-* Figma
-* Images
+This is a website about jogging through different states. In this project I have learned a lot of new skills, but I got to apply the old ones as well.
 
-**Intro**
+Old Skills
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+BEM, display-flex, hover, etc.
+
+New Skills
+responsive web design, working with galleries
 
 **Figma**
 
-* [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
-
+This is my first time using Figma, and it does get a little confusing as to what dimensions are actually applicable to the project. 
 **Images**
+I didn't like dowloading images one by one from figma, and I think it would save a lot of time if we could just download them in bulk. 
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+Overall, I have learned a lot, but there were also a lot of frustration along the way. 

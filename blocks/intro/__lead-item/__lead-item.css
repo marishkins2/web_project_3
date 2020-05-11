@@ -1,3 +1,7 @@
 .intro__lead-item {
     margin: 0px;
 }
+
+.intro__lead-item-bold {
+    font-weight: bold;
+}
