@@ -1,0 +1,16 @@
+    @import url("./__title/__title.css");
+    @import url("./__image.css/__image.css");
+    @import url("./__paragraph/__paragraph.css");
+    @import url("./__website/__website.css");
+    @import url("./__link/__link.css");
+    @import url("./__url-heading/__url-heading.css");
+    .place {
+        max-width: 984px;
+        margin: auto;
+        display: grid;
+        margin-bottom: 80px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 20px 10px;
+        grid-template-areas: "title link" "image paragraph" "image paragraph" "image paragraph";
+    }

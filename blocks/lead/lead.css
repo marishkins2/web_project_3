@@ -7,3 +7,16 @@
     flex-direction: column;
     margin-bottom: 92px;
 }
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+    .lead__title {
+        margin-left: 152px;
+        margin-right: 152px;
+        min-width: 720px;
+    }
+    .lead__subtitle {
+        margin-left: 202px;
+        margin-right: 202px;
+        min-width: 620px;
+    }
+}

@@ -1,0 +1,4 @@
+@import url("./place/place.css");
+.places__list {
+    list-style: none;
+}
