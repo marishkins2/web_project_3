@@ -10,3 +10,10 @@
 .header__tag-link_underline {
     text-decoration: underline;
 }
+
+@media screen and (max-width:320px) {
+    .header__tag-link {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

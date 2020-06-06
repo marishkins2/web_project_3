@@ -5,3 +5,13 @@
     line-height: 58px;
     margin-top: 92px;
 }
+
+@media screen and (max-width:320px) {
+    .intro__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

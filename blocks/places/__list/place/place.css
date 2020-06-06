@@ -14,3 +14,29 @@
         gap: 20px 10px;
         grid-template-areas: "title link" "image paragraph" "image paragraph" "image paragraph";
     }
+    
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .place {
+            margin: 0px 48px 80px;
+            max-width: 928px;
+        }
+    }
+    
+    @media screen and (min-width: 321px) and (max-width: 768px) {
+        .place {
+            margin: 0px 24px 72px;
+            max-width: 720px;
+        }
+    }
+    
+    @media screen and (max-width:320px) {
+        .place {
+            display: flex;
+            flex-direction: column;
+            max-width: 320px;
+            margin-bottom: 48px;
+        }
+        .place:last-child {
+            margin-bottom: 0px;
+        }
+    }

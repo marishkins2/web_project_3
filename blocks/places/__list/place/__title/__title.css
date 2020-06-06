@@ -8,3 +8,27 @@
     grid-area: title;
     margin-top: 0px;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .place__title {
+        max-width: 440px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .place__title {
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .place__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0px 16px 32px;
+    }
+}

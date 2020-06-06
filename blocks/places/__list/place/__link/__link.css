@@ -6,3 +6,10 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
+@media screen and (max-width:320px) {
+    .place__link {
+        max-width: 320px;
+        height: 200px;
+    }
+}

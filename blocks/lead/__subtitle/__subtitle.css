@@ -5,3 +5,23 @@
     text-align: center;
     margin: 0px 330px 64px;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .lead__subtitle {
+        margin: 0px 202px 56px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .lead__subtitle {
+        margin: 0px 74px 56px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .lead__subtitle {
+        margin: 0px 16px 40px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
